@@ -2,7 +2,7 @@ from config import Config
 from pyrogram import Client, emoji, filters
 from database import get_search_results
 from database import Data
-from config import Config
+# from config import Config # what is the need for same import
 import asyncio
 from pyrogram.errors import FloodWait
 import random
